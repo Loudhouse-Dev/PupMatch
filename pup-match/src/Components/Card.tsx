@@ -3,6 +3,7 @@ import Logo from "/pp-logo.png";
 type Card = {
   id: number;
   src: string;
+  matched: boolean;
 };
 
 type CardProps = {
