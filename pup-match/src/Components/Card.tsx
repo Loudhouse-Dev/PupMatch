@@ -1,16 +1,16 @@
 import Logo from "/pp-logo.png";
 
-type Card = {
+export type CardType = {
   id: number;
   src: string;
   matched: boolean;
 };
 
-type CardProps = {
-  card: Card;
+export type CardProps = {
+  card: CardType;
   flipped: boolean;
   disabled: boolean;
-  handleChoice: (card: Card) => void;
+  handleChoice: (card: CardType) => void;
 }
 
 const Card: React.FC<CardProps> = ({ card, flipped, disabled, handleChoice }) => {  
