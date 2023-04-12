@@ -1,4 +1,4 @@
-import Logo from "/pp-logo.png";
+import Logo from "../assets/pp-logo.png";
 
 export type CardType = {
   id: number;

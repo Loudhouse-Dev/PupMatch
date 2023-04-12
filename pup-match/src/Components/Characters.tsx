@@ -1,13 +1,13 @@
-import CHASE from "../chase.png";
-import EVEREST from "../Everest.png";
-import MARSHALL from "../marshall.png";
-import ROCKY from "../rocky.png";
-import RUBBLE from "../rubble.png";
-import RYDER from "../ryder.png";
-import SKY from "../sky.png";
-import TRACKER from "../tracker.png";
-import ZUMA from "../zuma.png";
-import LOGO from "../pp-logo.png";
+import CHASE from "../assets/chase.png";
+import EVEREST from "../assets/Everest.png";
+import MARSHALL from "../assets/marshall.png";
+import ROCKY from "../assets/rocky.png";
+import RUBBLE from "../assets/rubble.png";
+import RYDER from "../assets/ryder.png";
+import SKY from "../assets/sky.png";
+import TRACKER from "../assets/tracker.png";
+import ZUMA from "../assets/zuma.png";
+import LOGO from "../assets/pp-logo.png";
 
 export const cardImages = [
   { src: CHASE, matched: false },

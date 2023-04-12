@@ -1,4 +1,4 @@
-import Logo from "/LH-Logo.png";
+import Logo from "../assets/pp-logo.png";
 
 type Card = {
   id: number;
